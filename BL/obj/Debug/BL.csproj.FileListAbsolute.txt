@@ -1,0 +1,11 @@
+C:\Users\TrongToan\source\repos\XSeeding\BL\bin\Debug\BL.dll
+C:\Users\TrongToan\source\repos\XSeeding\BL\bin\Debug\BL.pdb
+C:\Users\TrongToan\source\repos\XSeeding\BL\bin\Debug\DAL.dll
+C:\Users\TrongToan\source\repos\XSeeding\BL\bin\Debug\DTO.dll
+C:\Users\TrongToan\source\repos\XSeeding\BL\bin\Debug\DAL.pdb
+C:\Users\TrongToan\source\repos\XSeeding\BL\bin\Debug\DTO.pdb
+C:\Users\TrongToan\source\repos\XSeeding\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+C:\Users\TrongToan\source\repos\XSeeding\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\Users\TrongToan\source\repos\XSeeding\BL\obj\Debug\BL.csproj.CopyComplete
+C:\Users\TrongToan\source\repos\XSeeding\BL\obj\Debug\BL.dll
+C:\Users\TrongToan\source\repos\XSeeding\BL\obj\Debug\BL.pdb
