@@ -33,31 +33,31 @@
             this.btnfinish = new System.Windows.Forms.Button();
             this.tabConfig = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.txblistFile = new System.Windows.Forms.TextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.comboBox5 = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.comboBox7 = new System.Windows.Forms.ComboBox();
+            this.comboBox8 = new System.Windows.Forms.ComboBox();
+            this.comboBox6 = new System.Windows.Forms.ComboBox();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.label10 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
-            this.comboBox7 = new System.Windows.Forms.ComboBox();
-            this.comboBox8 = new System.Windows.Forms.ComboBox();
             this.tabConfig.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -82,6 +82,7 @@
             this.btncancel.TabIndex = 6;
             this.btncancel.Text = "HỦY BỎ";
             this.btncancel.UseVisualStyleBackColor = true;
+            this.btncancel.Click += new System.EventHandler(this.btncancel_Click);
             // 
             // btnfinish
             // 
@@ -122,6 +123,44 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Tương tác quảng cáo";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Items.AddRange(new object[] {
+            "Tắt ",
+            "Bật",
+            "Ngẫu nhiên"});
+            this.comboBox3.Location = new System.Drawing.Point(276, 306);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(154, 28);
+            this.comboBox3.TabIndex = 10;
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "Tắt ",
+            "Bật",
+            "Ngẫu nhiên"});
+            this.comboBox2.Location = new System.Drawing.Point(276, 263);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(154, 28);
+            this.comboBox2.TabIndex = 9;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Tắt ",
+            "Bật"});
+            this.comboBox1.Location = new System.Drawing.Point(276, 218);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(154, 28);
+            this.comboBox1.TabIndex = 8;
             // 
             // checkBox2
             // 
@@ -186,6 +225,32 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Tương tác chỉ định";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // comboBox4
+            // 
+            this.comboBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Items.AddRange(new object[] {
+            "Tắt ",
+            "Bật",
+            "Ngẫu nhiên"});
+            this.comboBox4.Location = new System.Drawing.Point(273, 279);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(154, 28);
+            this.comboBox4.TabIndex = 14;
+            // 
+            // comboBox5
+            // 
+            this.comboBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox5.FormattingEnabled = true;
+            this.comboBox5.Items.AddRange(new object[] {
+            "Tắt ",
+            "Bật",
+            "Ngẫu nhiên"});
+            this.comboBox5.Location = new System.Drawing.Point(273, 232);
+            this.comboBox5.Name = "comboBox5";
+            this.comboBox5.Size = new System.Drawing.Size(154, 28);
+            this.comboBox5.TabIndex = 13;
             // 
             // label6
             // 
@@ -254,9 +319,47 @@
             this.tabPage3.Text = "Lướt newfeed";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
+            // comboBox7
+            // 
+            this.comboBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox7.FormattingEnabled = true;
+            this.comboBox7.Items.AddRange(new object[] {
+            "Tắt ",
+            "Bật",
+            "Ngẫu nhiên"});
+            this.comboBox7.Location = new System.Drawing.Point(255, 203);
+            this.comboBox7.Name = "comboBox7";
+            this.comboBox7.Size = new System.Drawing.Size(154, 28);
+            this.comboBox7.TabIndex = 18;
+            // 
+            // comboBox8
+            // 
+            this.comboBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox8.FormattingEnabled = true;
+            this.comboBox8.Items.AddRange(new object[] {
+            "Tắt ",
+            "Bật",
+            "Ngẫu nhiên"});
+            this.comboBox8.Location = new System.Drawing.Point(255, 148);
+            this.comboBox8.Name = "comboBox8";
+            this.comboBox8.Size = new System.Drawing.Size(154, 28);
+            this.comboBox8.TabIndex = 17;
+            // 
+            // comboBox6
+            // 
+            this.comboBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox6.FormattingEnabled = true;
+            this.comboBox6.Items.AddRange(new object[] {
+            "Tắt ",
+            "Bật"});
+            this.comboBox6.Location = new System.Drawing.Point(439, 38);
+            this.comboBox6.Name = "comboBox6";
+            this.comboBox6.Size = new System.Drawing.Size(179, 28);
+            this.comboBox6.TabIndex = 16;
+            // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(399, 93);
+            this.numericUpDown1.Location = new System.Drawing.Point(439, 93);
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(179, 30);
             this.numericUpDown1.TabIndex = 15;
@@ -296,108 +399,6 @@
             this.label9.Size = new System.Drawing.Size(234, 25);
             this.label9.TabIndex = 8;
             this.label9.Text = "Chạy lại sau khi kết thúc: ";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Tắt ",
-            "Bật"});
-            this.comboBox1.Location = new System.Drawing.Point(276, 218);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(154, 28);
-            this.comboBox1.TabIndex = 8;
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
-            "Tắt ",
-            "Bật",
-            "Ngẫu nhiên"});
-            this.comboBox2.Location = new System.Drawing.Point(276, 263);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(154, 28);
-            this.comboBox2.TabIndex = 9;
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
-            "Tắt ",
-            "Bật",
-            "Ngẫu nhiên"});
-            this.comboBox3.Location = new System.Drawing.Point(276, 306);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(154, 28);
-            this.comboBox3.TabIndex = 10;
-            // 
-            // comboBox4
-            // 
-            this.comboBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
-            "Tắt ",
-            "Bật",
-            "Ngẫu nhiên"});
-            this.comboBox4.Location = new System.Drawing.Point(273, 279);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(154, 28);
-            this.comboBox4.TabIndex = 14;
-            // 
-            // comboBox5
-            // 
-            this.comboBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Items.AddRange(new object[] {
-            "Tắt ",
-            "Bật",
-            "Ngẫu nhiên"});
-            this.comboBox5.Location = new System.Drawing.Point(273, 232);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(154, 28);
-            this.comboBox5.TabIndex = 13;
-            // 
-            // comboBox6
-            // 
-            this.comboBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Items.AddRange(new object[] {
-            "Tắt ",
-            "Bật"});
-            this.comboBox6.Location = new System.Drawing.Point(399, 35);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(179, 28);
-            this.comboBox6.TabIndex = 16;
-            // 
-            // comboBox7
-            // 
-            this.comboBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox7.FormattingEnabled = true;
-            this.comboBox7.Items.AddRange(new object[] {
-            "Tắt ",
-            "Bật",
-            "Ngẫu nhiên"});
-            this.comboBox7.Location = new System.Drawing.Point(255, 203);
-            this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(154, 28);
-            this.comboBox7.TabIndex = 18;
-            // 
-            // comboBox8
-            // 
-            this.comboBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox8.FormattingEnabled = true;
-            this.comboBox8.Items.AddRange(new object[] {
-            "Tắt ",
-            "Bật",
-            "Ngẫu nhiên"});
-            this.comboBox8.Location = new System.Drawing.Point(255, 148);
-            this.comboBox8.Name = "comboBox8";
-            this.comboBox8.Size = new System.Drawing.Size(154, 28);
-            this.comboBox8.TabIndex = 17;
             // 
             // FormConfig
             // 
