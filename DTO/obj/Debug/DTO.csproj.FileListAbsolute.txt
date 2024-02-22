@@ -1,6 +1,0 @@
-C:\Users\TrongToan\source\repos\XSeeding\DTO\bin\Debug\DTO.dll
-C:\Users\TrongToan\source\repos\XSeeding\DTO\bin\Debug\DTO.pdb
-C:\Users\TrongToan\source\repos\XSeeding\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
-C:\Users\TrongToan\source\repos\XSeeding\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
-C:\Users\TrongToan\source\repos\XSeeding\DTO\obj\Debug\DTO.dll
-C:\Users\TrongToan\source\repos\XSeeding\DTO\obj\Debug\DTO.pdb
