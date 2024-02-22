@@ -1,5 +1,4 @@
-﻿using OpenQA.Selenium.Chrome;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,16 +10,11 @@ using System.Windows.Forms;
 
 namespace XSeeding
 {
-    public partial class Form1 : Form
+    public partial class FormConfig : Form
     {
-        public Form1()
+        public FormConfig()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            ChromeDriver chromeDriver = new ChromeDriver();
         }
     }
 }

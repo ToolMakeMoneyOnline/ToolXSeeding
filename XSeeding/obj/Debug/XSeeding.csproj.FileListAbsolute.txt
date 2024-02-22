@@ -36,10 +36,11 @@ E:\Toolclick\ToolXSeeding\XSeeding\bin\Debug\Newtonsoft.Json.xml
 E:\Toolclick\ToolXSeeding\XSeeding\bin\Debug\WebDriver.xml
 E:\Toolclick\ToolXSeeding\XSeeding\obj\Debug\XSeeding.csproj.AssemblyReference.cache
 E:\Toolclick\ToolXSeeding\XSeeding\obj\Debug\XSeeding.csproj.SuggestedBindingRedirects.cache
-E:\Toolclick\ToolXSeeding\XSeeding\obj\Debug\XSeeding.Form1.resources
 E:\Toolclick\ToolXSeeding\XSeeding\obj\Debug\XSeeding.Properties.Resources.resources
 E:\Toolclick\ToolXSeeding\XSeeding\obj\Debug\XSeeding.csproj.GenerateResource.cache
 E:\Toolclick\ToolXSeeding\XSeeding\obj\Debug\XSeeding.csproj.CoreCompileInputs.cache
 E:\Toolclick\ToolXSeeding\XSeeding\obj\Debug\XSeeding.csproj.CopyComplete
 E:\Toolclick\ToolXSeeding\XSeeding\obj\Debug\XSeeding.exe
 E:\Toolclick\ToolXSeeding\XSeeding\obj\Debug\XSeeding.pdb
+E:\Toolclick\ToolXSeeding\XSeeding\obj\Debug\XSeeding.FormConfig.resources
+E:\Toolclick\ToolXSeeding\XSeeding\obj\Debug\XSeeding.Formmain.resources
