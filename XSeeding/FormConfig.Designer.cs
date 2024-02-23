@@ -28,32 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnback = new System.Windows.Forms.Button();
-            this.btncancel = new System.Windows.Forms.Button();
-            this.btnfinish = new System.Windows.Forms.Button();
+            this.backBtn = new System.Windows.Forms.Button();
+            this.cancelBtn = new System.Windows.Forms.Button();
+            this.finishBtn = new System.Windows.Forms.Button();
             this.tabConfig = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cmtADSCbb = new System.Windows.Forms.ComboBox();
+            this.likeADSCbb = new System.Windows.Forms.ComboBox();
+            this.runagainADSCbb = new System.Windows.Forms.ComboBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.txblistFile = new System.Windows.Forms.TextBox();
+            this.listfileTxb = new System.Windows.Forms.TextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
+            this.cmtPointCbb = new System.Windows.Forms.ComboBox();
+            this.likePointCbb = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.listpostTxb = new System.Windows.Forms.TextBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.comboBox7 = new System.Windows.Forms.ComboBox();
-            this.comboBox8 = new System.Windows.Forms.ComboBox();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.cmtNfCbb = new System.Windows.Forms.ComboBox();
+            this.likeNfCbb = new System.Windows.Forms.ComboBox();
+            this.runagainNfCbb = new System.Windows.Forms.ComboBox();
+            this.timestopNmr = new System.Windows.Forms.NumericUpDown();
             this.label10 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -62,36 +62,36 @@
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.timestopNmr)).BeginInit();
             this.SuspendLayout();
             // 
-            // btnback
+            // backBtn
             // 
-            this.btnback.Location = new System.Drawing.Point(38, 500);
-            this.btnback.Name = "btnback";
-            this.btnback.Size = new System.Drawing.Size(142, 41);
-            this.btnback.TabIndex = 7;
-            this.btnback.Text = "QUAY LẠI";
-            this.btnback.UseVisualStyleBackColor = true;
+            this.backBtn.Location = new System.Drawing.Point(38, 500);
+            this.backBtn.Name = "backBtn";
+            this.backBtn.Size = new System.Drawing.Size(142, 41);
+            this.backBtn.TabIndex = 7;
+            this.backBtn.Text = "QUAY LẠI";
+            this.backBtn.UseVisualStyleBackColor = true;
             // 
-            // btncancel
+            // cancelBtn
             // 
-            this.btncancel.Location = new System.Drawing.Point(393, 500);
-            this.btncancel.Name = "btncancel";
-            this.btncancel.Size = new System.Drawing.Size(142, 41);
-            this.btncancel.TabIndex = 6;
-            this.btncancel.Text = "HỦY BỎ";
-            this.btncancel.UseVisualStyleBackColor = true;
-            this.btncancel.Click += new System.EventHandler(this.btncancel_Click);
+            this.cancelBtn.Location = new System.Drawing.Point(393, 500);
+            this.cancelBtn.Name = "cancelBtn";
+            this.cancelBtn.Size = new System.Drawing.Size(142, 41);
+            this.cancelBtn.TabIndex = 6;
+            this.cancelBtn.Text = "HỦY BỎ";
+            this.cancelBtn.UseVisualStyleBackColor = true;
+            this.cancelBtn.Click += new System.EventHandler(this.btncancel_Click);
             // 
-            // btnfinish
+            // finishBtn
             // 
-            this.btnfinish.Location = new System.Drawing.Point(620, 500);
-            this.btnfinish.Name = "btnfinish";
-            this.btnfinish.Size = new System.Drawing.Size(142, 41);
-            this.btnfinish.TabIndex = 5;
-            this.btnfinish.Text = "HOÀN TẤT";
-            this.btnfinish.UseVisualStyleBackColor = true;
+            this.finishBtn.Location = new System.Drawing.Point(620, 500);
+            this.finishBtn.Name = "finishBtn";
+            this.finishBtn.Size = new System.Drawing.Size(142, 41);
+            this.finishBtn.TabIndex = 5;
+            this.finishBtn.Text = "HOÀN TẤT";
+            this.finishBtn.UseVisualStyleBackColor = true;
             // 
             // tabConfig
             // 
@@ -108,14 +108,14 @@
             // 
             // tabPage1
             // 
-            this.tabPage1.Controls.Add(this.comboBox3);
-            this.tabPage1.Controls.Add(this.comboBox2);
-            this.tabPage1.Controls.Add(this.comboBox1);
+            this.tabPage1.Controls.Add(this.cmtADSCbb);
+            this.tabPage1.Controls.Add(this.likeADSCbb);
+            this.tabPage1.Controls.Add(this.runagainADSCbb);
             this.tabPage1.Controls.Add(this.checkBox2);
             this.tabPage1.Controls.Add(this.label3);
             this.tabPage1.Controls.Add(this.label2);
             this.tabPage1.Controls.Add(this.label1);
-            this.tabPage1.Controls.Add(this.txblistFile);
+            this.tabPage1.Controls.Add(this.listfileTxb);
             this.tabPage1.Location = new System.Drawing.Point(4, 34);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
@@ -124,43 +124,43 @@
             this.tabPage1.Text = "Tương tác quảng cáo";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // comboBox3
+            // cmtADSCbb
             // 
-            this.comboBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
+            this.cmtADSCbb.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmtADSCbb.FormattingEnabled = true;
+            this.cmtADSCbb.Items.AddRange(new object[] {
             "Tắt ",
             "Bật",
             "Ngẫu nhiên"});
-            this.comboBox3.Location = new System.Drawing.Point(276, 306);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(154, 28);
-            this.comboBox3.TabIndex = 10;
+            this.cmtADSCbb.Location = new System.Drawing.Point(276, 306);
+            this.cmtADSCbb.Name = "cmtADSCbb";
+            this.cmtADSCbb.Size = new System.Drawing.Size(154, 28);
+            this.cmtADSCbb.TabIndex = 10;
             // 
-            // comboBox2
+            // likeADSCbb
             // 
-            this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.likeADSCbb.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.likeADSCbb.FormattingEnabled = true;
+            this.likeADSCbb.Items.AddRange(new object[] {
             "Tắt ",
             "Bật",
             "Ngẫu nhiên"});
-            this.comboBox2.Location = new System.Drawing.Point(276, 263);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(154, 28);
-            this.comboBox2.TabIndex = 9;
+            this.likeADSCbb.Location = new System.Drawing.Point(276, 263);
+            this.likeADSCbb.Name = "likeADSCbb";
+            this.likeADSCbb.Size = new System.Drawing.Size(154, 28);
+            this.likeADSCbb.TabIndex = 9;
             // 
-            // comboBox1
+            // runagainADSCbb
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.runagainADSCbb.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.runagainADSCbb.FormattingEnabled = true;
+            this.runagainADSCbb.Items.AddRange(new object[] {
             "Tắt ",
             "Bật"});
-            this.comboBox1.Location = new System.Drawing.Point(276, 218);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(154, 28);
-            this.comboBox1.TabIndex = 8;
+            this.runagainADSCbb.Location = new System.Drawing.Point(276, 218);
+            this.runagainADSCbb.Name = "runagainADSCbb";
+            this.runagainADSCbb.Size = new System.Drawing.Size(154, 28);
+            this.runagainADSCbb.TabIndex = 8;
             // 
             // checkBox2
             // 
@@ -199,25 +199,25 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "Chạy lại sau khi kết thúc: ";
             // 
-            // txblistFile
+            // listfileTxb
             // 
-            this.txblistFile.ForeColor = System.Drawing.SystemColors.ScrollBar;
-            this.txblistFile.Location = new System.Drawing.Point(17, 16);
-            this.txblistFile.Multiline = true;
-            this.txblistFile.Name = "txblistFile";
-            this.txblistFile.Size = new System.Drawing.Size(729, 135);
-            this.txblistFile.TabIndex = 0;
-            this.txblistFile.Text = "Danh sách profiles";
+            this.listfileTxb.ForeColor = System.Drawing.SystemColors.ScrollBar;
+            this.listfileTxb.Location = new System.Drawing.Point(17, 16);
+            this.listfileTxb.Multiline = true;
+            this.listfileTxb.Name = "listfileTxb";
+            this.listfileTxb.Size = new System.Drawing.Size(729, 135);
+            this.listfileTxb.TabIndex = 0;
+            this.listfileTxb.Text = "Danh sách profiles";
             // 
             // tabPage2
             // 
-            this.tabPage2.Controls.Add(this.comboBox4);
-            this.tabPage2.Controls.Add(this.comboBox5);
+            this.tabPage2.Controls.Add(this.cmtPointCbb);
+            this.tabPage2.Controls.Add(this.likePointCbb);
             this.tabPage2.Controls.Add(this.label6);
             this.tabPage2.Controls.Add(this.checkBox1);
             this.tabPage2.Controls.Add(this.label4);
             this.tabPage2.Controls.Add(this.label5);
-            this.tabPage2.Controls.Add(this.textBox1);
+            this.tabPage2.Controls.Add(this.listpostTxb);
             this.tabPage2.Location = new System.Drawing.Point(4, 34);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -226,31 +226,31 @@
             this.tabPage2.Text = "Tương tác chỉ định";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // comboBox4
+            // cmtPointCbb
             // 
-            this.comboBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
+            this.cmtPointCbb.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmtPointCbb.FormattingEnabled = true;
+            this.cmtPointCbb.Items.AddRange(new object[] {
             "Tắt ",
             "Bật",
             "Ngẫu nhiên"});
-            this.comboBox4.Location = new System.Drawing.Point(273, 279);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(154, 28);
-            this.comboBox4.TabIndex = 14;
+            this.cmtPointCbb.Location = new System.Drawing.Point(273, 279);
+            this.cmtPointCbb.Name = "cmtPointCbb";
+            this.cmtPointCbb.Size = new System.Drawing.Size(154, 28);
+            this.cmtPointCbb.TabIndex = 14;
             // 
-            // comboBox5
+            // likePointCbb
             // 
-            this.comboBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Items.AddRange(new object[] {
+            this.likePointCbb.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.likePointCbb.FormattingEnabled = true;
+            this.likePointCbb.Items.AddRange(new object[] {
             "Tắt ",
             "Bật",
             "Ngẫu nhiên"});
-            this.comboBox5.Location = new System.Drawing.Point(273, 232);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(154, 28);
-            this.comboBox5.TabIndex = 13;
+            this.likePointCbb.Location = new System.Drawing.Point(273, 232);
+            this.likePointCbb.Name = "likePointCbb";
+            this.likePointCbb.Size = new System.Drawing.Size(154, 28);
+            this.likePointCbb.TabIndex = 13;
             // 
             // label6
             // 
@@ -292,22 +292,22 @@
             this.label5.TabIndex = 7;
             this.label5.Text = "Like bài viết:";
             // 
-            // textBox1
+            // listpostTxb
             // 
-            this.textBox1.ForeColor = System.Drawing.SystemColors.ScrollBar;
-            this.textBox1.Location = new System.Drawing.Point(16, 15);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(729, 135);
-            this.textBox1.TabIndex = 1;
-            this.textBox1.Text = "Danh sách bài viết (đường dẫn chi tiết)";
+            this.listpostTxb.ForeColor = System.Drawing.SystemColors.ScrollBar;
+            this.listpostTxb.Location = new System.Drawing.Point(16, 15);
+            this.listpostTxb.Multiline = true;
+            this.listpostTxb.Name = "listpostTxb";
+            this.listpostTxb.Size = new System.Drawing.Size(729, 135);
+            this.listpostTxb.TabIndex = 1;
+            this.listpostTxb.Text = "Danh sách bài viết (đường dẫn chi tiết)";
             // 
             // tabPage3
             // 
-            this.tabPage3.Controls.Add(this.comboBox7);
-            this.tabPage3.Controls.Add(this.comboBox8);
-            this.tabPage3.Controls.Add(this.comboBox6);
-            this.tabPage3.Controls.Add(this.numericUpDown1);
+            this.tabPage3.Controls.Add(this.cmtNfCbb);
+            this.tabPage3.Controls.Add(this.likeNfCbb);
+            this.tabPage3.Controls.Add(this.runagainNfCbb);
+            this.tabPage3.Controls.Add(this.timestopNmr);
             this.tabPage3.Controls.Add(this.label10);
             this.tabPage3.Controls.Add(this.label7);
             this.tabPage3.Controls.Add(this.label8);
@@ -319,50 +319,50 @@
             this.tabPage3.Text = "Lướt newfeed";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
-            // comboBox7
+            // cmtNfCbb
             // 
-            this.comboBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox7.FormattingEnabled = true;
-            this.comboBox7.Items.AddRange(new object[] {
+            this.cmtNfCbb.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmtNfCbb.FormattingEnabled = true;
+            this.cmtNfCbb.Items.AddRange(new object[] {
             "Tắt ",
             "Bật",
             "Ngẫu nhiên"});
-            this.comboBox7.Location = new System.Drawing.Point(255, 203);
-            this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(154, 28);
-            this.comboBox7.TabIndex = 18;
+            this.cmtNfCbb.Location = new System.Drawing.Point(255, 203);
+            this.cmtNfCbb.Name = "cmtNfCbb";
+            this.cmtNfCbb.Size = new System.Drawing.Size(154, 28);
+            this.cmtNfCbb.TabIndex = 18;
             // 
-            // comboBox8
+            // likeNfCbb
             // 
-            this.comboBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox8.FormattingEnabled = true;
-            this.comboBox8.Items.AddRange(new object[] {
+            this.likeNfCbb.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.likeNfCbb.FormattingEnabled = true;
+            this.likeNfCbb.Items.AddRange(new object[] {
             "Tắt ",
             "Bật",
             "Ngẫu nhiên"});
-            this.comboBox8.Location = new System.Drawing.Point(255, 148);
-            this.comboBox8.Name = "comboBox8";
-            this.comboBox8.Size = new System.Drawing.Size(154, 28);
-            this.comboBox8.TabIndex = 17;
+            this.likeNfCbb.Location = new System.Drawing.Point(255, 148);
+            this.likeNfCbb.Name = "likeNfCbb";
+            this.likeNfCbb.Size = new System.Drawing.Size(154, 28);
+            this.likeNfCbb.TabIndex = 17;
             // 
-            // comboBox6
+            // runagainNfCbb
             // 
-            this.comboBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Items.AddRange(new object[] {
+            this.runagainNfCbb.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.runagainNfCbb.FormattingEnabled = true;
+            this.runagainNfCbb.Items.AddRange(new object[] {
             "Tắt ",
             "Bật"});
-            this.comboBox6.Location = new System.Drawing.Point(439, 38);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(179, 28);
-            this.comboBox6.TabIndex = 16;
+            this.runagainNfCbb.Location = new System.Drawing.Point(439, 38);
+            this.runagainNfCbb.Name = "runagainNfCbb";
+            this.runagainNfCbb.Size = new System.Drawing.Size(179, 28);
+            this.runagainNfCbb.TabIndex = 16;
             // 
-            // numericUpDown1
+            // timestopNmr
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(439, 93);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(179, 30);
-            this.numericUpDown1.TabIndex = 15;
+            this.timestopNmr.Location = new System.Drawing.Point(439, 93);
+            this.timestopNmr.Name = "timestopNmr";
+            this.timestopNmr.Size = new System.Drawing.Size(179, 30);
+            this.timestopNmr.TabIndex = 15;
             // 
             // label10
             // 
@@ -405,9 +405,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(820, 577);
-            this.Controls.Add(this.btnback);
-            this.Controls.Add(this.btncancel);
-            this.Controls.Add(this.btnfinish);
+            this.Controls.Add(this.backBtn);
+            this.Controls.Add(this.cancelBtn);
+            this.Controls.Add(this.finishBtn);
             this.Controls.Add(this.tabConfig);
             this.Name = "FormConfig";
             this.Text = "FormConfig";
@@ -418,42 +418,42 @@
             this.tabPage2.PerformLayout();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.timestopNmr)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button btnback;
-        private System.Windows.Forms.Button btncancel;
-        private System.Windows.Forms.Button btnfinish;
+        private System.Windows.Forms.Button backBtn;
+        private System.Windows.Forms.Button cancelBtn;
+        private System.Windows.Forms.Button finishBtn;
         private System.Windows.Forms.TabControl tabConfig;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txblistFile;
+        private System.Windows.Forms.TextBox listfileTxb;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox listpostTxb;
         private System.Windows.Forms.TabPage tabPage3;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.NumericUpDown timestopNmr;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.ComboBox comboBox5;
-        private System.Windows.Forms.ComboBox comboBox7;
-        private System.Windows.Forms.ComboBox comboBox8;
-        private System.Windows.Forms.ComboBox comboBox6;
+        private System.Windows.Forms.ComboBox cmtADSCbb;
+        private System.Windows.Forms.ComboBox likeADSCbb;
+        private System.Windows.Forms.ComboBox runagainADSCbb;
+        private System.Windows.Forms.ComboBox cmtPointCbb;
+        private System.Windows.Forms.ComboBox likePointCbb;
+        private System.Windows.Forms.ComboBox cmtNfCbb;
+        private System.Windows.Forms.ComboBox likeNfCbb;
+        private System.Windows.Forms.ComboBox runagainNfCbb;
     }
 }
